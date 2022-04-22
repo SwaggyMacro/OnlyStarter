@@ -3,6 +3,7 @@ import DiscussionPage from 'flarum/components/DiscussionPage';
 import Button from 'flarum/components/Button'
 import app from 'flarum/app';
 import PostUser from 'flarum/components/PostUser';
+import PostStream from 'flarum/components/PostStream';
 
 var onlyStarter = false;
 
@@ -27,14 +28,15 @@ export default function () {
                     try{
                         $(this).find('.PostUser .topicStarter')[0].className;
                     }catch(e){
-                        $(this).css("display", "none");
+                        if ($(this).parent().attr("data-index") != 0){
+                            $(this).css("display", "none");
+                        }
                     }
-    
                 });
                 onlyStarter = true;
                 $(".OnlyStarter span").text(textNotOnlyStarter);
             }else{
-                $(".CommentPost").each(function(){
+                $(".PostStream").each(function(){
                     $(this).css("display", "block");
                 });
                 onlyStarter = false;
@@ -42,6 +44,10 @@ export default function () {
             }
             console.log(onlyStarter);
         });
+    });
+
+    extend(PostStream.prototype, 'oninit', function () {
+        onlyStarter = false;
     });
 
     extend(PostUser.prototype, 'view', function (vnode) {
@@ -75,9 +81,10 @@ export default function () {
                     try{
                         $(this).find('.PostUser .topicStarter')[0].className;
                     }catch(e){
-                        $(this).css("display", "none");
+                        if ($(this).parent().attr("data-index") != 0){
+                            $(this).css("display", "none");
+                        }
                     }
-    
                 });
             }
           }
