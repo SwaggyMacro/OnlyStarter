@@ -2,7 +2,8 @@
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/swaggymacro/only-starter.svg)](https://packagist.org/packages/swaggymacro/only-starter)
 
-A [Flarum](http://flarum.org) extension. A extension for only show starter&#39;s reply
+A [Flarum](http://flarum.org) extension. A extension for only show topic starter's reply and show topic starter flag.
+一个Flarum扩展，实现传统论坛的只看楼主功能，以及标记楼主身份铭牌。
 
 ### Installation
 
