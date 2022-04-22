@@ -1,6 +1,6 @@
 {
   "name": "swaggymacro/only-starter",
-  "description": "A Flarum extension. A extension for only show topic starter's reply and show topic starter flag.",
+  "description": "A Flarum extension. An extension for only show topic starter's reply and show topic starter flag.",
   "keywords": [
     "flarum"
   ],
