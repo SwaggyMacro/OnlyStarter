@@ -36,13 +36,12 @@ export default function () {
                 onlyStarter = true;
                 $(".OnlyStarter span").text(textNotOnlyStarter);
             }else{
-                $(".PostStream").each(function(){
+                $(".CommentPost").each(function(){
                     $(this).css("display", "block");
                 });
                 onlyStarter = false;
                 $(".OnlyStarter span").text(textOnlyStarter);
             }
-            console.log(onlyStarter);
         });
     });
 
