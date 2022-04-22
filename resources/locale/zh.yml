@@ -1,0 +1,9 @@
+swaggymacro:
+  forum:
+    topic_starter: 楼主
+    blog_article_author: 作者
+    only_starter: 只看楼主
+    not_only_starter: 取消只看楼主
+  admin:
+    setting_only_starter: 启用只看楼主功能
+    setting_show_topic_starter: 显示楼主铭牌
