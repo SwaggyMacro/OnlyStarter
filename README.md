@@ -4,7 +4,7 @@
 
 A [Flarum](http://flarum.org) extension. An extension for only showing the topic starter's replies and showing the topic starter(or author) label.  
 一个Flarum扩展，实现传统论坛的只看楼主功能，以及标记楼主身份铭牌。
-
+The idea from [Topic-starter](https://github.com/Dem13n/topic-starter-label).
 
 ### Installation
 
