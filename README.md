@@ -3,8 +3,10 @@
 ![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/swaggymacro/only-starter.svg)](https://packagist.org/packages/swaggymacro/only-starter)
 
 A [Flarum](http://flarum.org) extension. An extension for only showing the topic starter's replies and showing the topic starter(or author) label.  
-一个Flarum扩展，实现传统论坛的只看楼主功能，以及标记楼主身份铭牌。
 The idea from [Topic-starter](https://github.com/Dem13n/topic-starter-label).
+一个Flarum扩展，实现传统论坛的只看楼主功能，以及标记楼主身份铭牌。
+灵感来自[Topic-starter](https://github.com/Dem13n/topic-starter-label).
+
 
 ### Installation
 
